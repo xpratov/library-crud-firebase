@@ -5,7 +5,9 @@ const Header = () => {
   return (
     <header>
       <nav>
-        <Link to={"/"}>LOGO</Link>
+        <Link to={"/"}>
+          <img className="logo" src="/logo.svg" alt="Logo" />
+        </Link>
         {auth.currentUser ? (
           <div>
             <Link to={"/addBook"}>Add book</Link>

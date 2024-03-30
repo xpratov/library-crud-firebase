@@ -31,17 +31,21 @@ a:hover{
 header{
   width: 100%;
   max-width: 768px;
-  padding: 20px 60px;
+  padding: 10px 60px;
   background-color: var(--navy);
   box-shadow: -5px 0px 20px rgb(35, 75, 255);
   border-radius: 0px 0px 10px 10px;
   position: fixed;
   opacity: 0.95;
   font-size: 20px;
+  .logo{
+    width: 50px;
+  }
   nav{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
   ul{
     display: flex;
